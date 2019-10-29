@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #000;}
+  .header .slb {
+    color: #fff;
+    padding-left: 40px;
+    font-size: 2.2em;}
+
+  .header1 {
+    background-color: #000;
+    color: #fff;
+    flex-basis: 35%;}
+    .header1 ul {
+      list-style: none;}
+    .header1 ul li {
+      float: left;
+      font-size: 1.2em;
+      padding: 8px 16px; }
+  a {
+    color: #fff; }
+  a:link {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+  .search {
+    background-color: rgb(36, 24, 24);
+    border-style: solid;
+    flex-basis: 45%;}
+    input {
+      height: 100px;  
+      width: 95%;}
+
+  .header2 {
+    flex-basis: 10%; 
+    }
+    .signin {
+      float: left;
+      width: 50%;
+      background-color: rgb(8, 59, 59);
+      text-align: center;}
+      .signin i {
+        font-size: 3em;
+        text-align: center;}
+    .contact { 
+      align-self: center;
+      text-align: center;}
+      .contact i {
+        font-size: 3em;
+        text-align: center;}
+
+.menu {
+  display: flex;
+  align-items: center;}
+  .cata {
+    float: left;
+    flex-basis: 50%;}
+    .categories {      
+      display: flex;
+      list-style: none;}
+      .catalog_link {
+        font-size: 1.5em;
+        padding: 0px 16px;
+        color: #000;}
+  .sup {
+    flex-basis: 50%;
+    background-color: #888;}
+    .support {
+      list-style: none;
+      display: flex;}
+      .support_link {
+        font-size: 1.2em;
+        padding: 4px 16px;
+        color: #000;
+      }
+ 
+
+.highlight {
+  background-color: greenyellow;
+  height: 10px;
+  font-size: 2em; }
+
+ table {
+  background-color: rgb(28, 11, 104);
+  font-size: 1.5em;
+  color: #fff; }
+  table th {
+    display: table-cell;
+    font-size: 3em;
+  }
+  table tr td{
+  padding: 0px 20px;
+  border-left: 1px solid #fff;}  
+  table .date h4 {
+    color: black;
+    background-color: #fff;  }
