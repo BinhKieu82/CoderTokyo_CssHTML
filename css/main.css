@@ -80,9 +80,18 @@ body {
  
 
 .highlight {
-  background-color: greenyellow;
-  height: 10px;
-  font-size: 2em; }
+  height: 500px;
+  text-align: center;
+  background-position: center;
+  background-image: url("https://loremflickr.com/320/240");
+  background-repeat: no-repeat;
+  background-size: cover;}
+  .highlight h2 {
+    padding-top: 200px;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 5px 5px black;
+  }
 
  table {
   background-color: rgb(28, 11, 104);
@@ -90,8 +99,7 @@ body {
   color: #fff; }
   table th {
     display: table-cell;
-    font-size: 3em;
-  }
+    font-size: 3em;  }
   table tr td{
   padding: 0px 20px;
   border-left: 1px solid #fff;}  
