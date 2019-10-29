@@ -1,0 +1,30 @@
+.highlight {
+  height: 500px;
+  text-align: center;
+  background-position: center;
+  background-image: url("https://loremflickr.com/320/240");
+  background-repeat: no-repeat;
+  background-size: cover;
+  & h2 {
+    padding-top: 200px;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 5px 5px black;}}
+
+  .news0{
+    background-color: rgb(28, 11, 104);
+    color: #fff;
+    font-size: 3em;}
+  .news {
+    display: flex;
+    background-color: rgb(28, 11, 104);
+    font-size: 1.5em;
+    color: #fff; }  
+    .news1 {
+      padding: 0px 10px 0px 80px;}
+    .news2, .news3, .emphasis{
+    padding: 0px 20px 10px 20px;
+    border-left: 1px solid #fff;}  
+    .news h4 span {
+      color: black;
+      background-color: #fff;  }

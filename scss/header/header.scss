@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  & .slb {
+    color: #fff;
+    padding-left: 40px;
+    font-size: 2.2em;}}
+
+  .header1 {
+    background-color: #000;
+    color: #fff;
+    flex-basis: 35%;
+    & ul {
+      list-style: none;}
+    & ul li {
+      float: left;
+      font-size: 1.2em;
+      padding: 8px 16px; }}
+  a {
+    color: #fff; }
+  a:link {
+    text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+  .search {
+    background-color: rgb(36, 24, 24);
+    border-style: solid;
+    flex-basis: 45%;}
+    input {
+      height: 100px;  
+      width: 95%;}
+      
+  .header2 {
+    flex-basis: 10%; 
+    }
+    .signin {
+      float: left;
+      width: 50%;
+      background-color: rgb(8, 59, 59);
+      text-align: center;}
+      .signin i {
+        font-size: 3em;
+        text-align: center;}
+    .contact { 
+      align-self: center;
+      text-align: center;}
+      .contact i {
+        font-size: 3em;
+        text-align: center;}
