@@ -1,0 +1,18 @@
+.highlight {
+  height: 500px;
+  text-align: center;
+  background-position: center;
+  background-image: url("https://loremflickr.com/320/240");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .highlight h2 {
+    padding-top: 200px;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 5px 5px black; }
+  .highlight a {
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid #1c0b68;
+    background-color: #7f7979;
+    border-radius: 10px; }
