@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  align-items: center; }
+  
+  .cata {
+    float: left;
+    flex-basis: 50%; }
+    .cata ul {
+      display: flex;
+      list-style: none; }
+      .catalog_link {
+        text-decoration: none;
+        font-size: 1.5em;
+        padding: 0px 16px;
+        color: #000; }
+
+  .sup {
+    flex-basis: 50%;
+    background-color: #888; }
+    .sup ul {
+      list-style: none;
+      display: flex; }
+      .support_link {
+        text-decoration: none;
+        font-size: 1.2em;
+        padding: 0px 16px;
+        color: #000; }
