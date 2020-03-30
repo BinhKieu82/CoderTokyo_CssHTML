@@ -8,36 +8,33 @@ body {
   grid-template-columns: 1fr 4fr 5fr 1fr; }
   .header .slb {
     color: #fff;
-    padding-left: 40px;
-    font-size: 2.2em; }
+    padding: 0px 40px;
+    font-size: 2.5rem; }
 
 .submenu {
   background-color: #000;
   color: #fff;
-  flex-basis: 35%; }
-  .submenu ul {
-    list-style: none; }
-  .submenu ul li {
-    float: left;
-    font-size: 1.2em;
-    padding: 8px 16px; }
+  float: left;
+  font-size: 1.2rem;
+  flex-basis: 35%; }  
   .submenu a {
-    color: #fff; }
+    color: #fff;
+    padding: 8px 16px; }
   .submenu a:link {
     text-decoration: none; }
   .submenu a:hover {
     text-decoration: underline; }
 
 .search {
+  padding: 10px 5px;
   position: relative;
   border-style: solid; }
-  .search input {    
+  .search input {  
     height: 90px;
     width: 100%;  
     background-color: #7f7979;}
   .search ::placeholder {
-    vertical-align: bottom;
-    padding-left: 10px;
+    padding: 10px;
     color: #fff;
     font-size: 2rem; }
   .search i {    
@@ -67,70 +64,102 @@ body {
     color: #fff; }
 
 .menu {
-  display: flex;
-  align-items: center; }
-  
-  .cata {
-    float: left;
-    flex-basis: 50%; }
-    .cata ul {
-      display: flex;
-      list-style: none; }
-      .catalog_link {
-        text-decoration: none;
-        font-size: 1.5em;
-        padding: 0px 16px;
-        color: #000; }
-
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; }  
+  .cata {    
+    padding: 10px 0px;    
+    grid-column: 1 / span 1;
+    grid-row: 2; }
+    .cata a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 0px 16px;
+      color: #000; }
   .sup {
-    flex-basis: 50%;
+    position: relative;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1 / span 2;
     background-color: #888; }
-    .sup ul {
-      list-style: none;
-      display: flex; }
-      .support_link {
-        text-decoration: none;
-        font-size: 1.2em;
-        padding: 0px 16px;
-        color: #000; }
+    .sup .item {
+      position: absolute;
+      top: 50%; }
+    .sup a {
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 0px 16px;
+      color: #000; }
 
 .highlight {
   height: 500px;
+  position: relative;
   text-align: center;
   background-position: center;
   background-image: url("https://loremflickr.com/320/240");
   background-repeat: no-repeat;
   background-size: cover; }
   .highlight h2 {
-    padding-top: 200px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    margin: 0px;
     font-size: 4em;
     color: #fff;
     text-shadow: 5px 5px black; }
   .highlight a {
+    position: absolute;
+    left: 45%;
+    top: 60%;
     text-decoration: none;
     padding: 20px;
     border: 1px solid #1c0b68;
     background-color: #7f7979;
     border-radius: 10px; }
+    
 
-.news0 {
-  background-color: #1c0b68;
-  color: #fff;
-  font-size: 3em; }
 
 .news {
-  display: flex;
-  background-color: #1c0b68;
-  font-size: 1.5em;
-  color: #fff; }
-
-.news1 {
-  padding: 0px 10px 0px 80px; }
-
-.news2, .news3, .emphasis {
-  padding: 0px 20px 10px 20px;
-  border-left: 1px solid #fff; }
-
-.news h4 span {
-  color: black;
-  background-color: #fff; }
+  display: grid;
+  background-color: #42af9f;
+  font-size: 1.5rem;
+  color: #fff; 
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr 3fr 1fr;}
+  .news h2 {
+    font-size: 3rem;
+    grid-column: 2 / span 4;
+    grid-row: 1; }
+  .news1 {
+    grid-column: 2 / 2;
+    grid-row: 2; }
+  .news2 {
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+    grid-column: 3 / 3;
+    grid-row: 2; }
+  .news3 {
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+    grid-column: 4 /  4;
+    grid-row: 2; }
+  .emphasis {
+    grid-column: 5;
+    grid-row: 1 / span 2; 
+    border-left: 1px solid #fff;
+    padding: 0px 10px;
+    margin-top: 10%;
+    background-color: #000; }
+    .emphasis a {
+      color: #fff;
+      padding: 10px;
+      border: 1px solid #fff;
+      background-color: #42af9f; }
+  .news a {    
+    text-decoration: none; }
+    .news a:hover {
+      text-decoration: underline; }
+  .news h4 span {
+    color: black;
+    background-color: #fff; }
