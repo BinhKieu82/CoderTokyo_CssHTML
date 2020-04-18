@@ -1,0 +1,178 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.header {
+  display: grid;
+  align-items: center;
+  background-color: #000;
+  grid-template-columns: 1fr 4fr 5fr 1fr; }
+  .header .slb {
+    color: #fff;
+    padding: 0px 40px;
+    font-size: 2.5rem; }
+
+.submenu {
+  background-color: #000;
+  color: #fff;
+  float: left;
+  font-size: 1.2rem;
+  flex-basis: 35%; }  
+  .submenu a {
+    color: #fff;
+    padding: 8px 16px; }
+  .submenu a:link {
+    text-decoration: none; }
+  .submenu a:hover {
+    text-decoration: underline; }
+
+.search {
+  padding: 10px 5px;
+  position: relative;
+  border-style: solid; }
+  .search input {  
+    height: 90px;
+    width: 100%;  
+    background-color: #7f7979;}
+  .search ::placeholder {
+    padding: 10px;
+    color: #fff;
+    font-size: 2rem; }
+  .search i {    
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    font-size: 2rem; }
+
+.header2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;}
+  .header2 .signin {
+    float: left;
+    color: #fff;
+    background-color: #747a7a;
+    text-align: center; }
+  .header2 .signin i, .header2 .contact i {
+    font-size: 3em;
+    text-align: center; }
+  .header2 .contact {
+    color: #fff;
+    background-color: #19aa5f;
+    align-self: center;
+    text-align: center; }
+  .header2 .contact a, .header2 .signin a {
+    color: #fff; }
+  .header2 a:link {
+    text-decoration: none; }
+  .header2 a:hover {
+    text-decoration: underline; }
+
+.menu {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; }  
+  .cata {    
+    padding: 10px 0px;    
+    grid-column: 1 / span 1;
+    grid-row: 2; }
+    .cata a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      padding: 0px 16px;
+      color: #000; }
+  .sup {
+    position: relative;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    background-color: #888; }
+    .sup .item {
+      position: absolute;
+      top: 50%; }
+    .sup a {
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 0px 16px;
+      color: #000; }
+  .menu a:link {
+    text-decoration: none; }
+  .menu a:hover {
+    text-decoration: underline; }
+
+.highlight {
+  height: 500px;
+  position: relative;
+  text-align: center;
+  background-position: center;
+  background-image: url("https://loremflickr.com/320/240");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .highlight h2 {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    margin: 0px;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 5px 5px black; }
+  .highlight a {
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid #1c0b68;
+    background-color: #7f7979;
+    border-radius: 10px; }
+    
+
+
+.news {
+  display: grid;
+  background-color: #42af9f;
+  font-size: 1.5rem;
+  color: #fff; 
+  grid-template-rows: 1fr 3fr 0.5fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr 3fr 1fr;}
+  .news h2 {
+    font-size: 3rem;
+    grid-column: 2 / span 4;
+    grid-row: 1; }
+  .news1 {
+    grid-column: 2 / 2;
+    grid-row: 2; }
+  .news2 {
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+    grid-column: 3 / 3;
+    grid-row: 2; }
+  .news3 {
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+    grid-column: 4 /  4;
+    grid-row: 2; }
+  .emphasis {
+    grid-column: 5;
+    grid-row: 1 / span 2; 
+    position: relative;
+    border-left: 1px solid #fff;
+    padding: 0px 10px;
+    margin-top: 10%;
+    background-color: #000; }
+    .emphasis h2 {
+      font-size: 2rem; }
+    .emphasis a {
+      position: absolute;
+      bottom: 10%;
+      color: #fff;
+      padding: 10px;
+      border: 1px solid #fff;
+      background-color: #42af9f; }
+  .news a {    
+    text-decoration: none; }
+    .news a:hover {
+      text-decoration: underline; }
+  .news h4 span {
+    color: black;
+    background-color: #fff; }
