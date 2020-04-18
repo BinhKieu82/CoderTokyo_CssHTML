@@ -1,5 +1,5 @@
 # CSS Final Project
-## captured from [Schlumber website](https://www.slb.com/)
+## captured from [Schlumberger website](https://www.slb.com/)
 ### main techs used:
 - Grid, position for page layout
 - Hyperlink effects ```sh :hover, $:visit, $:link ```
